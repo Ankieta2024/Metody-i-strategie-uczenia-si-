@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    height: 100vh;
+    display: block;
+    justify-self: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid;
+}
+
+th,td{
+    border:1px solid;
+    text-align: left;
+}
+select{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h4{
+    font-weight: normal;
+    margin-bottom: 1cm;
+}
+
+td input[type="radio"]{
+    display:block;
+    margin:0 auto;
+    transform: scale(2);
+}
+
+th,td{
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+td{
+    width: 10px;
+}
+
+th{
+    background-color: #BA55D3;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+
+th:first-child{
+    text-align: left;
+}
+
+th:last-child{
+    text-align: center;
+}
+
+[class^="icon-btn-"]{
+	width:150px;
+	height:50px;
+	border-style:0;
+	border-color:#FFFFFF;
+	border-radius:5%;
+	margin:0;
+	cursor: pointer;
+	font-size:30px;
+    background-color: #D8BFD8;
+}
+
+.icon-btn-signupbtn{
+    margin-top: 40px;
+	color:white;
+    text-align: center;
+}
+.icon-btn-signupbtn:hover{
+	background: #DA70D6;
+}
